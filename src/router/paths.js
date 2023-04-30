@@ -30,7 +30,7 @@ export default [
     component: () => import(
       /* webpackChunkName: "routes" */
       /* webpackMode: "lazy-once" */
-      `@/pages/Deny.vue`
+      `@/pages/DenyPage.vue`
     )
   },
   {
@@ -42,7 +42,7 @@ export default [
     component: () => import(
       /* webpackChunkName: "routes" */
       /* webpackMode: "lazy-once" */
-      `@/pages/Error.vue`
+      `@/pages/ErrorPage.vue`
     )
   },
   {
@@ -60,7 +60,7 @@ export default [
     component: () => import(
       /* webpackChunkName: "routes" */
       /* webpackMode: "lazy-once" */
-      `@/pages/Dashboard.vue`
+      `@/pages/DashboardPage.vue`
     )
   },
   {
